@@ -1,0 +1,20 @@
+{
+  "name": "travel-from-ukraine",
+  "version": "0.1.0",
+  "authors": [
+    "s0ph1e <sonya1912@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-maps": "~3.1.0",
+    "lodash": "~3.10.1",
+    "requirejs": "~2.1.22"
+  }
+}
