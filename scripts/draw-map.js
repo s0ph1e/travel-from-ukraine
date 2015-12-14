@@ -19,7 +19,7 @@ define([
 
 		function setStylesForCountries(map) {
 			map.data.setStyle(function(feature) {
-				var name = feature.getProperty('name');
+				var name = feature.getProperty('name_long');
 				return getCountryStyle(name);
 			});
 		}
@@ -38,7 +38,7 @@ define([
 				style = {
 					fillColor: countriesData[category].color,
 					strokeWeight: 1
-				}
+				};
 			}
 
 			return style || config.defaultCountryStyle;
