@@ -28,7 +28,7 @@ define([
 
 		function setStylesForCountries(map) {
 			map.data.setStyle(function(feature) {
-				var name = feature.getProperty('name_long');
+				var name = feature.getProperty(config.countryNameProperty);
 				return getCountryStyle(name);
 			});
 		}
