@@ -1,7 +1,12 @@
 define(function () {
 	return {
-		internalPassport: {
+		home: {
 			color: 'blue',
+			description: 'Україна',
+			countries: ['Ukraine']
+		},
+		internalPassport: {
+			color: 'aquamarine',
 			description: 'в\'їзд за внутрішнім паспортом',
 			countries: ['Belarus', 'Russian Federation']
 		},
@@ -35,11 +40,10 @@ define(function () {
 				'São Tomé and Principe', 'Senegal', 'Saint Kitts and Nevis', 'Saint Lucia', 'Singapore', 'Syria',
 				'Suriname', 'Vietnam', 'Ghana', 'Iran', 'India', 'Cambodia', 'Marshall Islands', 'Mexico',
 				'United Arab Emirates', 'Papua New Guinea', 'Rwanda', 'Sri Lanka', 'South Sudan'
-
 			]
 		},
 		schengenVisa: {
-			color: 'magenta',
+			color: 'tomato',
 			description: 'в\'їзд з шенгенською візою',
 			countries: [
 				'Austria', 'Andorra', 'Belgium', 'Hungary', 'Switzerland', 'Sweden', 'Germany', 'Greece', 'Denmark',
