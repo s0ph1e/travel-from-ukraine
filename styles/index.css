@@ -1,5 +1,8 @@
+@import "fonts.css";
+
 html, body { height: 100%; margin: 0; padding: 0; }
 #map { height: 100%; }
+#footer { background: white; opacity: 0.8; padding: 5px; }
 .legend-container { background: white; padding: 10px; }
 .legend-item-designation { display: inline-block; width: 1.5em; height: 1.5em; margin: 5px; vertical-align: middle; opacity: 0.5; border: 1px black solid; }
 .legend-item-text { display: inline-block; height: 1.5em; line-height: 1.5em; vertical-align: middle; }
