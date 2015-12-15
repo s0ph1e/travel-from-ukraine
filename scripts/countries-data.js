@@ -2,10 +2,12 @@ define(function () {
 	return {
 		internalPassport: {
 			color: 'blue',
+			description: 'в\'їзд за внутрішнім паспортом',
 			countries: ['Belarus', 'Russian Federation']
 		},
 		internationalPassport: {
 			color: 'green',
+			description: 'в\'їзд за закордонним паспортом',
 			countries: [
 				'Azerbaijan', 'Albania', 'Antigua and Barbuda', 'Argentina', 'Bosnia and Herzegovina', 'Brazil',
 				'Brunei', 'Armenia', 'Guatemala', 'Tunisia', 'Turkey', 'Hong Kong', 'Grenada', 'Georgia', 'Panama',
@@ -17,6 +19,7 @@ define(function () {
 		},
 		visaInAirport: {
 			color: 'yellow',
+			description: 'отримання візи в аеропорту',
 			countries: [
 				'Macao', 'Barbados', 'Bolivia', 'Burkina Faso', 'Burundi', 'Timor-Leste', 'Mauritius', 'Madagascar',
 				'Malawi', 'Maldives', 'Haiti', 'The Gambia', 'Togo', 'Tonga', 'Uganda', 'Fiji', 'Djibouti', 'Dominica',
@@ -26,6 +29,7 @@ define(function () {
 		},
 		electronicVisa: {
 			color: 'orange',
+			description: 'візу можна отримати через Інтернет',
 			countries: [
 				'Australia', 'Qatar', 'Cyprus', 'Kuwait', 'Bahrain', 'Botswana', 'Bhutan', 'Vanuatu',
 				'São Tomé and Principe', 'Senegal', 'Saint Kitts and Nevis', 'Saint Lucia', 'Singapore', 'Syria',
@@ -36,6 +40,7 @@ define(function () {
 		},
 		schengenVisa: {
 			color: 'magenta',
+			description: 'в\'їзд з шенгенською візою',
 			countries: [
 				'Austria', 'Andorra', 'Belgium', 'Hungary', 'Switzerland', 'Sweden', 'Germany', 'Greece', 'Denmark',
 				'Iceland', 'Spain', 'Italy', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Slovakia',

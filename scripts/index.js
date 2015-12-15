@@ -2,6 +2,9 @@ require.config({
 	baseUrl: '..'
 });
 
-require(['scripts/draw-map'], function(drawMap) {
+require([
+	'bower_components/lodash/lodash.min',
+	'scripts/draw-map'
+], function(_, drawMap) {
 	drawMap();
 });

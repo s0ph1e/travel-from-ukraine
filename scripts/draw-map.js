@@ -1,15 +1,20 @@
 define([
-		'bower_components/lodash/lodash.min',
 		'bower_components/google-maps/lib/Google.min',
 		'scripts/config',
-		'scripts/countries-data'
-	], function(_, GoogleMapsLoader, config, countriesData) {
+		'scripts/countries-data',
+		'scripts/create-legend'
+	], function(GoogleMapsLoader, config, countriesData, createLegend) {
+
+		var mapElement = document.getElementById('map');
 
 		function init() {
 			GoogleMapsLoader.load(function(google) {
-				var map = new google.maps.Map(document.getElementById('map'), config.mapInitOptions);
+				var map = new google.maps.Map(mapElement, config.mapInitOptions);
 				loadCountriesToMap(map);
 				setStylesForCountries(map);
+
+				var legend = createLegend(countriesData);
+				map.controls[google.maps.ControlPosition.TOP_RIGHT].push(legend);
 			});
 		}
 
