@@ -15,30 +15,32 @@ define(function () {
 			description: 'в\'їзд за закордонним паспортом',
 			countries: [
 				'Azerbaijan', 'Albania', 'Antigua and Barbuda', 'Argentina', 'Bosnia and Herzegovina', 'Brazil',
-				'Brunei', 'Armenia', 'Guatemala', 'Tunisia', 'Turkey', 'Hong Kong', 'Grenada', 'Georgia', 'Panama',
+				'Brunei', 'Armenia', 'Guatemala', 'Tunisia', 'Turkey', 'Hong Kong', 'Georgia', 'Panama',
 				'Paraguay', 'Peru', 'Pitcairn Islands', 'Western Sahara', 'Israel', 'Kazakhstan', 'Kyrgyzstan',
 				'Malaysia', 'Macedonia', 'Federated States of Micronesia', 'Moldova', 'Mongolia', 'Cook Islands',
 				'El Salvador', 'Samoa', 'Swaziland', 'Seychelles', 'Serbia', 'Namibia', 'Nicaragua', 'Niue',
-				'Tajikistan', 'Uzbekistan', 'Montenegro', 'Chile', 'Ecuador', 'Jamaica'
+				'Tajikistan', 'Uzbekistan', 'Montenegro', 'Chile', 'Ecuador', 'Jamaica', 'Vanuatu', 'Haiti', 'Honduras',
+				'Dominica', 'Dominican Republic'
 			]
 		},
 		visaInAirport: {
 			color: 'yellow',
 			description: 'отримання візи в аеропорту',
 			countries: [
-				'Macao', 'Barbados', 'Bolivia', 'Burkina Faso', 'Burundi', 'Timor-Leste', 'Mauritius', 'Madagascar',
-				'Malawi', 'Maldives', 'Haiti', 'The Gambia', 'Togo', 'Tonga', 'Uganda', 'Fiji', 'Djibouti', 'Dominica',
-				'Dominican Republic', 'Egypt', 'Zambia', 'Jordan', 'Cape Verde', 'Kenya', 'Comoros', 'Lao PDR',
-				'Lebanon', 'Nepal', 'Saint Vincent and the Grenadines', 'Northern Cyprus', 'Tanzania', 'Thailand'
+				'Macao', 'Barbados', 'Bolivia', 'Burundi', 'Timor-Leste', 'Mauritius', 'Madagascar',
+				'Malawi', 'Maldives', 'Togo', 'Tonga', 'Uganda', 'Fiji', 'Djibouti', 'Egypt', 'Zambia', 'Jordan',
+				'Cape Verde', 'Kenya', 'Comoros', 'Lao PDR',
+				'Lebanon', 'Nepal', 'Saint Vincent and the Grenadines', 'Northern Cyprus', 'Tanzania', 'Thailand',
+				'Guinea-Bissau', 'Grenada'
 			]
 		},
 		electronicVisa: {
 			color: 'orange',
 			description: 'візу можна отримати через Інтернет',
 			countries: [
-				'Australia', 'Qatar', 'Cyprus', 'Kuwait', 'Bahrain', 'Botswana', 'Bhutan', 'Vanuatu',
+				'Australia', 'Cyprus', 'Kuwait', 'Bahrain', 'Bhutan',
 				'São Tomé and Principe', 'Senegal', 'Saint Kitts and Nevis', 'Saint Lucia', 'Singapore', 'Syria',
-				'Suriname', 'Vietnam', 'Ghana', 'Iran', 'India', 'Cambodia', 'Marshall Islands', 'Mexico',
+				'Suriname', 'Ghana', 'India', 'Cambodia', 'Marshall Islands', 'Mexico',
 				'United Arab Emirates', 'Papua New Guinea', 'Rwanda', 'Sri Lanka', 'South Sudan'
 			]
 		},
@@ -47,9 +49,19 @@ define(function () {
 			description: 'в\'їзд з шенгенською візою',
 			countries: [
 				'Austria', 'Andorra', 'Belgium', 'Hungary', 'Switzerland', 'Sweden', 'Germany', 'Greece', 'Denmark',
-				'Iceland', 'Spain', 'Italy', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Slovakia',
+				'Spain', 'Italy', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Slovakia',
 				'Slovenia', 'Latvia', 'Lithuania', 'Liechtenstein', 'Luxembourg', 'Finland', 'France', 'Croatia',
-				'Czech Republic', 'Estonia'
+				'Czech Republic', 'Estonia', 'Vatican'
+			]
+		},
+		otherVisaNeeded: {
+			color: 'maroon',
+			description: 'потрібна віза',
+			countries: [
+				'Algeria', 'Angola', 'Afghanistan', 'Bahamas', 'Bangladesh', 'Bahrain', 'Belize', 'Benin', 'Bermuda',
+				'Bulgaria', 'Botswana', 'Burkina Faso', 'United Kingdom', 'Venezuela', 'Vietnam', 'Gabon', 'Guyana',
+				'The Gambia', 'Ghana', 'Guinea', 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Yemen', 'Zimbabwe',
+				'Indonesia', 'Iraq', 'Iran', 'Ireland', 'Iceland', 'Cameroon', 'Canada', 'Qatar'
 			]
 		}
 	};
