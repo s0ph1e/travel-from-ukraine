@@ -14,34 +14,29 @@ define(function () {
 			color: 'green',
 			description: 'в\'їзд за закордонним паспортом',
 			countries: [
-				'Azerbaijan', 'Albania', 'Antigua and Barbuda', 'Argentina', 'Bosnia and Herzegovina', 'Brazil',
-				'Brunei', 'Armenia', 'Guatemala', 'Tunisia', 'Turkey', 'Hong Kong', 'Georgia', 'Panama',
-				'Paraguay', 'Peru', 'Pitcairn Islands', 'Western Sahara', 'Israel', 'Kazakhstan', 'Kyrgyzstan',
-				'Malaysia', 'Macedonia', 'Federated States of Micronesia', 'Moldova', 'Mongolia', 'Cook Islands',
-				'El Salvador', 'Samoa', 'Swaziland', 'Seychelles', 'Serbia', 'Namibia', 'Nicaragua', 'Niue',
-				'Tajikistan', 'Uzbekistan', 'Montenegro', 'Chile', 'Ecuador', 'Jamaica', 'Vanuatu', 'Haiti', 'Honduras',
-				'Dominica', 'Dominican Republic'
+				'Azerbaijan', 'Albania', 'Antigua and Barbuda', 'Argentina', 'Barbados', 'Bosnia and Herzegovina',
+				'Brazil', 'Brunei', 'Armenia', 'Guatemala', 'Turkey', 'Northern Cyprus', 'Hong Kong', 'Georgia',
+				'Panama', 'Paraguay', 'Peru', 'Israel', 'Kazakhstan', 'Kyrgyzstan', 'Malaysia', 'Macedonia',
+				'Federated States of Micronesia', 'Moldova', 'Mongolia', 'El Salvador', 'Samoa', 'Swaziland',
+				'Seychelles', 'Serbia', 'Namibia', 'Nicaragua', 'Tajikistan', 'Uzbekistan', 'Montenegro', 'Chile',
+				'Ecuador', 'Jamaica', 'Vanuatu', 'Haiti', 'Honduras', 'Dominica', 'Dominican Republic', 'Palestine',
+				'Saint Vincent and the Grenadines'
 			]
 		},
 		visaInAirport: {
 			color: 'yellow',
 			description: 'отримання візи в аеропорту',
 			countries: [
-				'Macao', 'Barbados', 'Bolivia', 'Burundi', 'Timor-Leste', 'Mauritius', 'Madagascar',
-				'Malawi', 'Maldives', 'Togo', 'Tonga', 'Uganda', 'Fiji', 'Djibouti', 'Egypt', 'Zambia', 'Jordan',
-				'Cape Verde', 'Kenya', 'Comoros', 'Lao PDR',
-				'Lebanon', 'Nepal', 'Saint Vincent and the Grenadines', 'Northern Cyprus', 'Tanzania', 'Thailand',
-				'Guinea-Bissau', 'Grenada'
+				'Bolivia', 'Burundi', 'Timor-Leste', 'Mauritius', 'Madagascar', 'Maldives', 'Togo', 'Tonga', 'Fiji',
+				'Djibouti', 'Egypt', 'Zambia', 'Cape Verde', 'Kenya', 'Comoros', 'Lebanon', 'Nepal', 'Tanzania',
+				'Thailand', 'Guinea-Bissau', 'Grenada', 'Mozambique', 'Palau', 'Mali'
 			]
 		},
 		electronicVisa: {
 			color: 'orange',
 			description: 'візу можна отримати через Інтернет',
 			countries: [
-				'Australia', 'Cyprus', 'Kuwait', 'Bahrain', 'Bhutan',
-				'São Tomé and Principe', 'Senegal', 'Saint Kitts and Nevis', 'Saint Lucia', 'Singapore', 'Syria',
-				'Suriname', 'Ghana', 'India', 'Cambodia', 'Marshall Islands', 'Mexico',
-				'United Arab Emirates', 'Papua New Guinea', 'Rwanda', 'Sri Lanka', 'South Sudan'
+				'Australia', 'Cyprus', 'Senegal', 'Saint Lucia', 'India', 'Cambodia', 'Mexico', 'Sri Lanka'
 			]
 		},
 		schengenVisa: {
@@ -49,19 +44,27 @@ define(function () {
 			description: 'в\'їзд з шенгенською візою',
 			countries: [
 				'Austria', 'Andorra', 'Belgium', 'Hungary', 'Switzerland', 'Sweden', 'Germany', 'Greece', 'Denmark',
-				'Spain', 'Italy', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Slovakia',
-				'Slovenia', 'Latvia', 'Lithuania', 'Liechtenstein', 'Luxembourg', 'Finland', 'France', 'Croatia',
-				'Czech Republic', 'Estonia', 'Vatican'
+				'Spain', 'Italy', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Slovakia', 'Slovenia',
+				'Latvia', 'Lithuania', 'Liechtenstein', 'Luxembourg', 'Finland', 'France', 'Croatia', 'Czech Republic',
+				'Estonia', 'Vatican', 'Romania', 'Bulgaria', 'San Marino'
 			]
 		},
 		otherVisaNeeded: {
-			color: 'maroon',
+			color: 'paleVioletRed',
 			description: 'потрібна віза',
 			countries: [
 				'Algeria', 'Angola', 'Afghanistan', 'Bahamas', 'Bangladesh', 'Bahrain', 'Belize', 'Benin', 'Bermuda',
-				'Bulgaria', 'Botswana', 'Burkina Faso', 'United Kingdom', 'Venezuela', 'Vietnam', 'Gabon', 'Guyana',
+				'Botswana', 'Burkina Faso', 'United Kingdom', 'Venezuela', 'Vietnam', 'Gabon', 'Guyana',
 				'The Gambia', 'Ghana', 'Guinea', 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Yemen', 'Zimbabwe',
-				'Indonesia', 'Iraq', 'Iran', 'Ireland', 'Iceland', 'Cameroon', 'Canada', 'Qatar'
+				'Indonesia', 'Iraq', 'Iran', 'Ireland', 'Iceland', 'Cameroon', 'Canada', 'Qatar', 'China', 'Kiribati',
+				'Colombia', 'Democratic Republic of the Congo', 'Republic of Congo', 'Republic of Korea', 'Costa Rica',
+				'CÃ´te d\'Ivoire', 'Cuba', 'Kuwait', 'Lesotho', 'Liberia', 'Libya', 'Mauritania', 'Malawi', 'Morocco',
+				'Marshall Islands', 'Monaco', 'Myanmar', 'Nauru', 'Niger', 'Nigeria', 'New Zealand',
+				'United Arab Emirates', 'Oman', 'Pakistan', 'Papua New Guinea', 'South Sudan', 'South Africa',
+				'Puerto Rico', 'Rwanda', 'SÃ£o TomÃ© and Principe', 'Saudi Arabia', 'Saint Kitts and Nevis',
+				'Sierra Leon', 'Syria', 'Singapore', 'United States', 'Solomon Islands', 'Sudan', 'Suriname',
+				'Trinidad and Tobago', 'Turkmenistan', 'Uganda', 'Uruguay', 'Philippines', 'Central African Republic',
+				'Chad', 'Japan', 'Jordan', 'Lao PDR', 'Tunisia', 'Bhutan', 'São Tomé and Principe'
 			]
 		}
 	};
