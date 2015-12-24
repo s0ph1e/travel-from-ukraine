@@ -1,0 +1,69 @@
+{
+	"home": {
+		"color": "blue",
+		"description": "Україна",
+		"countries": ["Ukraine"]
+	},
+	"internalPassport": {
+		"color": "aquamarine",
+		"description": "в'їзд за внутрішнім паспортом",
+		"countries": ["Belarus", "Russian Federation"]
+	},
+	"internationalPassport": {
+		"color": "green",
+		"description": "в'їзд за закордонним паспортом",
+		"countries": [
+			"Azerbaijan", "Albania", "Antigua and Barbuda", "Argentina", "Barbados", "Bosnia and Herzegovina",
+			"Brazil", "Brunei", "Armenia", "Guatemala", "Turkey", "Northern Cyprus", "Hong Kong", "Georgia",
+			"Panama", "Paraguay", "Peru", "Israel", "Kazakhstan", "Kyrgyzstan", "Malaysia", "Macedonia",
+			"Federated States of Micronesia", "Moldova", "Mongolia", "El Salvador", "Samoa", "Swaziland",
+			"Seychelles", "Serbia", "Namibia", "Nicaragua", "Tajikistan", "Uzbekistan", "Montenegro", "Chile",
+			"Ecuador", "Jamaica", "Vanuatu", "Haiti", "Honduras", "Dominica", "Dominican Republic", "Palestine",
+			"Saint Vincent and the Grenadines"
+		]
+	},
+	"visaInAirport": {
+		"color": "yellow",
+		"description": "отримання візи в аеропорту",
+		"countries": [
+			"Bolivia", "Burundi", "Timor-Leste", "Mauritius", "Madagascar", "Maldives", "Togo", "Tonga", "Fiji",
+			"Djibouti", "Egypt", "Zambia", "Cape Verde", "Kenya", "Comoros", "Lebanon", "Nepal", "Tanzania",
+			"Thailand", "Guinea-Bissau", "Grenada", "Mozambique", "Palau", "Mali"
+		]
+	},
+	"electronicVisa": {
+		"color": "orange",
+		"description": "візу можна отримати через Інтернет",
+		"countries": [
+			"Australia", "Cyprus", "Senegal", "Saint Lucia", "India", "Cambodia", "Mexico", "Sri Lanka"
+		]
+	},
+	"schengenVisa": {
+		"color": "tomato",
+		"description": "в'їзд з шенгенською візою",
+		"countries": [
+			"Austria", "Andorra", "Belgium", "Hungary", "Switzerland", "Sweden", "Germany", "Greece", "Denmark",
+			"Spain", "Italy", "Malta", "Netherlands", "Norway", "Poland", "Portugal", "Slovakia", "Slovenia",
+			"Latvia", "Lithuania", "Liechtenstein", "Luxembourg", "Finland", "France", "Croatia", "Czech Republic",
+			"Estonia", "Vatican", "Romania", "Bulgaria", "San Marino"
+		]
+	},
+	"otherVisaNeeded": {
+		"color": "paleVioletRed",
+		"description": "потрібна віза",
+		"countries": [
+			"Algeria", "Angola", "Afghanistan", "Bahamas", "Bangladesh", "Bahrain", "Belize", "Benin", "Bermuda",
+			"Botswana", "Burkina Faso", "United Kingdom", "Venezuela", "Vietnam", "Gabon", "Guyana",
+			"The Gambia", "Ghana", "Guinea", "Equatorial Guinea", "Eritrea", "Ethiopia", "Yemen", "Zimbabwe",
+			"Indonesia", "Iraq", "Iran", "Ireland", "Iceland", "Cameroon", "Canada", "Qatar", "China", "Kiribati",
+			"Colombia", "Democratic Republic of the Congo", "Republic of Congo", "Republic of Korea", "Costa Rica",
+			"CÃ´te d'Ivoire", "Cuba", "Kuwait", "Lesotho", "Liberia", "Libya", "Mauritania", "Malawi", "Morocco",
+			"Marshall Islands", "Monaco", "Myanmar", "Nauru", "Niger", "Nigeria", "New Zealand",
+			"United Arab Emirates", "Oman", "Pakistan", "Papua New Guinea", "South Sudan", "South Africa",
+			"Puerto Rico", "Rwanda", "SÃ£o TomÃ© and Principe", "Saudi Arabia", "Saint Kitts and Nevis",
+			"Sierra Leon", "Syria", "Singapore", "United States", "Solomon Islands", "Sudan", "Suriname",
+			"Trinidad and Tobago", "Turkmenistan", "Uganda", "Uruguay", "Philippines", "Central African Republic",
+			"Chad", "Japan", "Jordan", "Lao PDR", "Tunisia", "Bhutan", "São Tomé and Principe"
+		]
+	}
+}

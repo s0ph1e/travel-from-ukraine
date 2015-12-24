@@ -1,32 +1,33 @@
 define([
-		'bower_components/google-maps/lib/Google.min',
-		'scripts/config',
-		'scripts/countries-data',
+		'googleMaps',
+		'json!config/config.json',
+		'json!config/countries-data.json',
 		'scripts/create-legend'
 	], function(GoogleMapsLoader, config, countriesData, createLegend) {
-
-
 
 		function init() {
 			GoogleMapsLoader.load(function(google) {
 				var mapElement = document.getElementById('map');
 				var map = new google.maps.Map(mapElement, config.mapInitOptions);
-				loadCountriesToMap(map);
-				setStylesForCountries(map);
 
-				var legend = createLegend(countriesData);
-				map.controls[google.maps.ControlPosition.TOP_RIGHT].push(legend);
-
-				var footerElement = document.getElementById('footer');
-				map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(footerElement);
+				drawCountries(map);
+				addLegend(map, google.maps.ControlPosition.TOP_RIGHT);
+				addContacts(map, google.maps.ControlPosition.BOTTOM_LEFT);
 			});
 		}
 
-		function loadCountriesToMap(map) {
-			map.data.loadGeoJson(config.geoJsonPath);
+		function addLegend(map, position) {
+			var legend = createLegend(countriesData);
+			map.controls[position].push(legend);
 		}
 
-		function setStylesForCountries(map) {
+		function addContacts(map, position) {
+			var footerElement = document.getElementById('footer');
+			map.controls[position].push(footerElement);
+		}
+
+		function drawCountries(map) {
+			map.data.loadGeoJson(config.geoJsonPath);
 			map.data.setStyle(function(feature) {
 				var name = feature.getProperty(config.countryNameProperty);
 				return getCountryStyle(name);
