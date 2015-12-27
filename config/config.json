@@ -3,7 +3,8 @@
 	"countryNameProperty": "name_long",
 	"mapInitOptions": {
 		"center": {"lat": 50.4501, "lng": 30.5234},
-		"zoom": 4
+		"zoom": 4,
+		"mapTypeControl": false
 	},
 	"defaultCountryStyle": {
 		"fillColor": "transparent",

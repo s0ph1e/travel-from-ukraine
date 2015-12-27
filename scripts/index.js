@@ -10,7 +10,9 @@ require.config({
 
 require([
 	'lodash',
+	'googleMaps',
 	'scripts/draw-map'
-], function(_, drawMap) {
-	drawMap();
+], function(_, GoogleMapsLoader, drawMap) {
+	GoogleMapsLoader.LIBRARIES = ['places'];
+	GoogleMapsLoader.load(drawMap);
 });
