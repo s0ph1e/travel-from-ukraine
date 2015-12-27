@@ -23,7 +23,7 @@
 		]
 	},
 	"visaInAirport": {
-		"color": "yellow",
+		"color": "lime",
 		"description": "отримання візи в аеропорту",
 		"countries": [
 			"Bolivia", "Burundi", "Timor-Leste", "Mauritius", "Madagascar", "Maldives", "Togo", "Tonga", "Fiji",
@@ -32,14 +32,14 @@
 		]
 	},
 	"electronicVisa": {
-		"color": "orange",
+		"color": "yellow",
 		"description": "візу можна отримати через Інтернет",
 		"countries": [
 			"Australia", "Cyprus", "Senegal", "Saint Lucia", "India", "Cambodia", "Mexico", "Sri Lanka"
 		]
 	},
 	"schengenVisa": {
-		"color": "tomato",
+		"color": "orange",
 		"description": "в'їзд з шенгенською візою",
 		"countries": [
 			"Austria", "Andorra", "Belgium", "Hungary", "Switzerland", "Sweden", "Germany", "Greece", "Denmark",
@@ -49,7 +49,7 @@
 		]
 	},
 	"otherVisaNeeded": {
-		"color": "paleVioletRed",
+		"color": "salmon",
 		"description": "потрібна віза",
 		"countries": [
 			"Algeria", "Angola", "Afghanistan", "Bahamas", "Bangladesh", "Bahrain", "Belize", "Benin", "Bermuda",
