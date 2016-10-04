@@ -45,7 +45,7 @@
 			"Austria", "Andorra", "Belgium", "Hungary", "Switzerland", "Sweden", "Germany", "Greece", "Denmark",
 			"Spain", "Italy", "Malta", "Netherlands", "Norway", "Poland", "Portugal", "Slovakia", "Slovenia",
 			"Latvia", "Lithuania", "Liechtenstein", "Luxembourg", "Finland", "France", "Croatia", "Czech Republic",
-			"Estonia", "Vatican", "Romania", "Bulgaria", "San Marino"
+			"Estonia", "Vatican", "Romania", "Bulgaria", "San Marino", "Iceland"
 		]
 	},
 	"otherVisaNeeded": {
@@ -55,7 +55,7 @@
 			"Algeria", "Angola", "Afghanistan", "Bahamas", "Bangladesh", "Bahrain", "Belize", "Benin", "Bermuda",
 			"Botswana", "Burkina Faso", "United Kingdom", "Venezuela", "Vietnam", "Gabon", "Guyana",
 			"The Gambia", "Ghana", "Guinea", "Equatorial Guinea", "Eritrea", "Ethiopia", "Yemen", "Zimbabwe",
-			"Iraq", "Iran", "Ireland", "Iceland", "Cameroon", "Canada", "Qatar", "China", "Kiribati",
+			"Iraq", "Iran", "Ireland", "Cameroon", "Canada", "Qatar", "China", "Kiribati",
 			"Colombia", "Democratic Republic of the Congo", "Republic of Congo", "Republic of Korea", "Costa Rica",
 			"CÃ´te d'Ivoire", "Cuba", "Kuwait", "Lesotho", "Liberia", "Libya", "Mauritania", "Malawi", "Morocco",
 			"Marshall Islands", "Monaco", "Myanmar", "Nauru", "Niger", "Nigeria", "New Zealand",
