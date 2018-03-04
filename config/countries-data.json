@@ -40,7 +40,7 @@
 	},
 	"schengenVisa": {
 		"color": "orange",
-		"description": "в'їзд з шенгенською візою",
+		"description": "в'їзд за біометричним паспортом або шенгенською візою",
 		"countries": [
 			"Austria", "Andorra", "Belgium", "Hungary", "Switzerland", "Sweden", "Germany", "Greece", "Denmark",
 			"Spain", "Italy", "Malta", "Netherlands", "Norway", "Poland", "Portugal", "Slovakia", "Slovenia",
