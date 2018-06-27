@@ -6,5 +6,6 @@ Uses data from [Ministry of Foreign Affairs of Ukraine](http://mfa.gov.ua/ua/con
 ## How to run it locally
 
 * `bower install`
+* add google maps api key in [scripts/index.js](scripts/index.js#L26)
 * `python -m SimpleHTTPServer 7777`
 * open [localhost:7777](http://localhost:7777/)
