@@ -23,7 +23,7 @@ require([
 ], function(_, googleAnalytics, GoogleMapsLoader, drawMap) {
 
 	GoogleMapsLoader.LIBRARIES = ['places'];
-	GoogleMapsLoader.KEY = 'GOOGLE_MAPS_API_KEY_HERE';
+	GoogleMapsLoader.KEY = 'AIzaSyDgT_D_WPnoVKtd-XWKC1wpJpQv5Pcq3Ek';
 	GoogleMapsLoader.load(drawMap);
 
 	googleAnalytics('send', 'pageview');
