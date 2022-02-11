@@ -1,7 +1,7 @@
 # travel-from-ukraine
 Google map with visa-free countries for ukrainians.
 
-Uses data from [Ministry of Foreign Affairs of Ukraine](http://mfa.gov.ua/ua/consular-affairs/travel-advice/entering-foreign-countries).
+Uses data from [Ministry of Foreign Affairs of Ukraine](https://mfa.gov.ua/podorozhnim/krayini-svitu-poperedzhennya-ta-poradi-rezhim-vyizdu).
 
 ## Install and run
 
